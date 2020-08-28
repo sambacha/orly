@@ -32,7 +32,7 @@ fonts: dir
 
 covers: dir
 	cd assets && \
-	tar -xf cover-images.tar.xz --skip-old-files -C $(PWD)/bin/cover-images
+	tar -xf cover-images.tar.xz -C $(PWD)/bin/cover-images
 
 %.bin: dir
 	cd cmd/$* && \
